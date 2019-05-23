@@ -35,7 +35,7 @@ def l33t_code(file):
                                 pass
         return(mylist)
 #print(l33t_code(“20k.txt”))
-#printxy
+
 
 
 def menu():
@@ -46,3 +46,10 @@ def menu():
 
 menu()
 
+
+
+
+
+import sys
+def l33t(line):
+	lmsg=line

@@ -36,8 +36,7 @@ header = {"content-type": "application/json", "X-Auth-Token":ticket}
 # this statement performs a GET on the specified host url
 response = requests.get(url, headers=header, verify=False)
 
-# json.dumps serializes the json into a string and allows us to
-# print the response in a 'pretty' format with indentation etc.
+
 
 
 # Taken Id as name

@@ -11,7 +11,7 @@ def depunctuate(line):
 def unique_words(book):
 	    unique_list=[]
 	    for item in book:
-	        #print(1)
+			#print(1)
 	        for line in item:
 	            #print(2)
 	            line=line.strip()
